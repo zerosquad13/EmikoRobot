@@ -63,7 +63,7 @@ async def _(event):
     if event.reply_to_msg_id:
         message_id = event.reply_to_msg_id
         reply_message = await event.get_reply_message()
-        await event.reply("`Processing...`")
+        await event.reply("`Sabar meq...`")
         try:
             downloaded_file_name = await tbot.download_media(
                 reply_message, TEMP_DOWNLOAD_DIRECTORY
@@ -91,10 +91,10 @@ async def _(event):
             )
         end = datetime.now()
         ms = (end - start).seconds
-        await event.reply("Background Removed in {} seconds".format(ms))
+        await event.reply("Background Removed in {} seconds by: @lifeinsinn".format(ms))
     else:
         await event.reply(
-            "remove.bg API returned Errors. Please report to @kenbotsupport\n`{}".format(
+            "remove.bg API returned Errors. Please report to @xproject13\n`{}".format(
                 output_file_name.content.decode("UTF-8")
             )
         )
