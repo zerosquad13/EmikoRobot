@@ -91,7 +91,7 @@ async def _(event):
             )
         end = datetime.now()
         ms = (end - start).seconds
-        await event.reply("Background Removed in {} seconds by: @lifeinsinn".format(ms))
+        await event.reply("Background Removed in {} seconds by: [〝ⵢɪɴ͜͡ɴᴇʀ〞](t.me/lifeinsinn)".format(ms))
     else:
         await event.reply(
             "remove.bg API returned Errors. Please report to @xproject13\n`{}".format(
