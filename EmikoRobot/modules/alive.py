@@ -9,11 +9,11 @@ from EmikoRobot.events import register
 from EmikoRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/5d0a53a25d6226fab7b4f.jpg"
+PHOTO = "https://telegra.ph/file/9453eabb70977b36f5285.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Emiko Robot.** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Sinner Robot.** \n\n"
   TEXT += "⚪ **I'm Working Properly** \n\n"
   TEXT += f"⚪ **My Master : [sinner](https://t.me/lifeinsinn)** \n\n"
   TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
