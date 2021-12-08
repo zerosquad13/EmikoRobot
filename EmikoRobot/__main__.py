@@ -82,8 +82,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-─────『[SINNER XXX](https://telegra.ph/file/26bb7cc86a256fd266bee.jpg)』─────
-Hᴇʟʟᴏ! Usᴇʀ,🍻 I ᴀᴍ *〝ⵢɪɴɴᴇʀ〞*
+─────『[SINNER XXX](https://telegra.ph/file/844082a513e2a36935df3.mp4)』─────
+Hᴇʟʟᴏ! Usᴇʀ,🍻 I ᴀᴍ *〝ⵢɪɴ͜͡ɴᴇʀ〞*
 ➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
 ┏━━━━━━━━━━━━━━━━┓
 ┃➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ┃ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ┃ғᴇᴀᴛᴜʀᴇs.
@@ -92,7 +92,7 @@ Hᴇʟʟᴏ! Usᴇʀ,🍻 I ᴀᴍ *〝ⵢɪɴɴᴇʀ〞*
 
 buttons = [
     [
-        InlineKeyboardButton(text="🜏〝ⵢɪɴɴᴇʀ〞🜏", callback_data="emiko_"),
+        InlineKeyboardButton(text="🜏〝ⵢɪɴ͜͡ɴᴇʀ〞🜏", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
@@ -108,13 +108,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hᴇʏ ᴛʜᴇʀᴇ, I'ᴍ [〝ⵢɪɴɴᴇʀ〞](https://telegra.ph/file/5d0a53a25d6226fab7b4f.jpg)!
+Hᴇʏ ᴛʜᴇʀᴇ, I'ᴍ [〝ⵢɪɴ͜͡ɴᴇʀ〞](https://t.me/xxxsquad18plus)!
 Tᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴜɴᴄᴛɪᴏɴᴀʟ, ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ɪ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ʀɪɢʜᴛs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 Hᴇʟᴘғᴜʟ ᴄᴏᴍᴍᴀɴᴅs:
 - /start: Sᴛᴀʀᴛs ᴍᴇ! Yᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
 - /help: Sᴇɴᴅs ᴛʜɪs ᴍᴇssᴀɢᴇ; I'ʟʟ ᴛᴇʟʟ ʏᴏᴜ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ!"""
 
-EMI_IMG = "https://telegra.ph/file/5d0a53a25d6226fab7b4f.jpg"
+EMI_IMG = "https://telegra.ph/file/9453eabb70977b36f5285.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @lifeinsinn \
@@ -364,7 +364,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *Sinner*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *〝ⵢɪɴ͜͡ɴᴇʀ〞*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -372,7 +372,7 @@ def emiko_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_Sinner's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for SinnerRobot.",
+            "\n\n Click on button bellow to get basic help for 〝ⵢɪɴ͜͡ɴᴇʀ〞.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -386,7 +386,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Owner", url="https://t.me/lifeinsinn"),
+                    InlineKeyboardButton(text="〝ⵢɪɴ͜͡ɴᴇʀ〞", url="https://t.me/lifeinsinn"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -412,7 +412,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, SinnerRobot now ready to manage your group."
+            "\nCongragulations, 〝ⵢɪɴ͜͡ɴᴇʀ〞 now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -439,8 +439,8 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Sinner support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Sinner.",
+            text="*๏ 〝ⵢɪɴ͜͡ɴᴇʀ〞 support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on 〝ⵢɪɴ͜͡ɴᴇʀ〞.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -459,13 +459,13 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Sinner</b>\n"
-            f"\nHere Developers Making The SinnerRobot",
+            text=f"<b>๏ Credis for 〝ⵢɪɴ͜͡ɴᴇʀ〞</b>\n"
+            f"\nHere Developers Making The 〝ⵢɪɴ͜͡ɴᴇʀ〞",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sinner", url="t.me/lifeinsinn"),
+                    InlineKeyboardButton(text="〝ⵢɪɴ͜͡ɴᴇʀ〞", url="t.me/lifeinsinn"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -786,7 +786,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Sinner Robot Started!**
+                f"""**〝ⵢɪɴ͜͡ɴᴇʀ〞 Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
