@@ -92,17 +92,15 @@ Hᴇʟʟᴏ! Usᴇʀ,🍻 I ᴀᴍ *〝ⵢɪɴ͜͡ɴᴇʀ〞*
 
 buttons = [
     [
-        InlineKeyboardButton(text="🜏〝ⵢɪɴ͜͡ɴᴇʀ〞🜏", callback_data="emiko_"),
+        InlineKeyboardButton(text="🜏 ʜᴇʟᴘ + ᴄᴏᴍᴍᴀɴᴅs 🜏", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""
-        ),
+        InlineKeyboardButton(text="〝ⵢɪɴ͜͡ɴᴇʀ〞", callback_data="emiko_"),
+        InlineKeyboardButton(text="〝ᴀssɪsᴛᴀɴᴛ〞", url="t.me/sinnermusicassistant"),
+        InlineKeyboardButton(text="〝ɢʀ͜͡ᴏᴜᴘ〞", url="t.me/xxxsquad18plus"),
     ],
     [
-        InlineKeyboardButton(
-            text="🖤 𝐀𝐃𝐃 𝐒𝐈𝐍𝐍𝐄𝐑 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏 🖤", url="t.me/sinnerXzero_bot?startgroup=new"),
+        InlineKeyboardButton(text="🖤 𝐀𝐃𝐃 𝐒𝐈𝐍𝐍𝐄𝐑 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏 🖤", url="t.me/sinnerXzero_bot?startgroup=new"),
     ],
 ]
 
@@ -114,7 +112,7 @@ Hᴇʟᴘғᴜʟ ᴄᴏᴍᴍᴀɴᴅs:
 - /start: Sᴛᴀʀᴛs ᴍᴇ! Yᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
 - /help: Sᴇɴᴅs ᴛʜɪs ᴍᴇssᴀɢᴇ; I'ʟʟ ᴛᴇʟʟ ʏᴏᴜ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ!"""
 
-EMI_IMG = "https://telegra.ph/file/9453eabb70977b36f5285.jpg"
+EMI_IMG = "https://telegra.ph/file/d29f6c661502bf3a73fe9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @lifeinsinn \
