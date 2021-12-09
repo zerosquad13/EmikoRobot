@@ -106,11 +106,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hᴇʏ ᴛʜᴇʀᴇ, I'ᴍ [〝ⵢɪɴ͜͡ɴᴇʀ〞](https://t.me/xxxsquad18plus)!
-Tᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴜɴᴄᴛɪᴏɴᴀʟ, ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ɪ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ʀɪɢʜᴛs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-Hᴇʟᴘғᴜʟ ᴄᴏᴍᴍᴀɴᴅs:
-- /start: Sᴛᴀʀᴛs ᴍᴇ! Yᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
-- /help: Sᴇɴᴅs ᴛʜɪs ᴍᴇssᴀɢᴇ; I'ʟʟ ᴛᴇʟʟ ʏᴏᴜ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ!"""
+┏━━━━━━━━━━━━━━━━┓
+      ╭∩╮（︶︿︶）╭∩╮ 
+┗━━━━━━━━━━━━━━━━┛
+ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ. ᴍᴀᴋᴇ ᴍᴇ ғᴜɴᴄᴛɪᴏɴᴀʟ, ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ɪ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ʀɪɢʜᴛs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ [🍻](https://telegra.ph/file/d29f6c661502bf3a73fe9.jpg)"""
 
 EMI_IMG = "https://telegra.ph/file/d29f6c661502bf3a73fe9.jpg"
 
@@ -307,7 +306,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Here is the help for the *{}* module:\n".format(
+                "Powered by @lifeinsinn\nHere is the help for the *{}* module:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
